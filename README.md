@@ -38,3 +38,41 @@ fig, ax = plt.subplots(figsize = (15,7), dpi = 400)
 squarify.plot(sizes = scored, label = names, color = colors)
 
 ```
+
+Updated the Average Attendance in each club stadium statistics:
+
+Extracted the table Data using the soup object again.
+
+[{'Barcelona': '53,982'},
+ {'Atlético Madrid': '46,728'},
+ {'Real Betis': '41,715'},
+ {'Real Madrid': '41,228'},
+ {'Athletic Bilbao': '32,946'},
+ {'Sevilla': '29,756'},
+ {'Valencia': '27,349'},
+ {'Real Sociedad': '26,827'},
+ {'Espanyol': '16,778'},
+ {'Osasuna': '16,753'},
+ {'Elche': '15,847'},
+ {'Levante': '14,961'},
+ {'Villarreal': '14,293'},
+ {'Cádiz': '14,055'},
+ {'Granada': '13,381'},
+ {'Mallorca': '12,434'},
+ {'Alavés': '10,799'},
+ {'Celta Vigo': '10,014'},
+ {'Getafe': '8,702'},
+ {'Rayo Vallecano': '8,035'},
+ {'League total': '22,829'}]
+ 
+ This time i have used a plotting object called pie.
+ I have show the percentage of total 100% and which club has the maximum no of attendance out of them all. If Barcelona is showing 13% means
+ They have the highest among the all club.  But its not showing the total from their club avg.
+ Be clear on that.
+ 
+ ```
+plt.title("Average Attendence in Laliga Santander 2021-2022", color = "black", fontsize = "15", fontweight = "bold")
+plt.pie(sizes, labels=labels, autopct = "%1.1f%%")
+plt.show()
+ 
+ ```
