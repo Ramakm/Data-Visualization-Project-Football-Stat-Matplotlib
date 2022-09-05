@@ -76,3 +76,10 @@ plt.pie(sizes, labels=labels, autopct = "%1.1f%%")
 plt.show()
  
  ```
+ 
+ ![Bar Details](https://user-images.githubusercontent.com/8182816/188364294-31ad645f-b174-4e96-be7c-078f6b3fb766.jpg)
+
+![Pie Chart Details](https://user-images.githubusercontent.com/8182816/188364316-94aef05b-60ac-46e7-8f22-d3cb15e2649d.jpg)
+
+![Squarify Details](https://user-images.githubusercontent.com/8182816/188364330-79c4a65b-6dd2-44df-ba94-a386cc986b17.jpg)
+
